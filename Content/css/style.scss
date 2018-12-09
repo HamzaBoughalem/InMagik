@@ -451,7 +451,9 @@ footer{
 	max-height: 675px;
 	min-height: 675px;
 }
-
+.serv{
+	margin-bottom: 20px
+}
 .carousel-control-next-icon, .carousel-control-prev-icon {
 	width: 30px;
 	height: 30px;
@@ -464,6 +466,9 @@ footer{
 }
 
 @media (max-width:767px ){
+	.card-group{
+		flex-flow: wrap;
+	}
 	.navbar-nav{
 		background-color: #fff;
 		width: 50%;
